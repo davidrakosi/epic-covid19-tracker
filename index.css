@@ -1,4 +1,90 @@
 html {
     margin: 0;
     font-family: Avenir Next, Helvetica;
+    background-color: #282A2F;
+}
+
+body {
+    margin: 0;
+    display: flex;
+}
+
+.main-container {
+    width: 65%;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.buttons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.button {
+    display: flex;
+}
+
+.icon-container {
+    height: 70px;
+    width: 70px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.icon-container i{
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infected {
+    background-color: #ee5b58;
+}
+
+.deaths {
+    background-color: #757575;
+}
+
+.recovered {
+    background-color: #5DC83E;
+}
+
+.total-cases {
+    background-color: #9945D7;
+}
+
+.general-info {
+    display: flex;
+}
+
+.category {
+    padding-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.total {
+    font-size: 20px;
+    color: #FF802E;
+    font-weight: 600;
+}
+
+.delta {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.side-pane-container {
+    width: 35%;
+    background-color: #44444C;
 }

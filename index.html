@@ -4,13 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f1b887a66b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <title>Epic COVID-19 Tracker</title>
 </head>
 
 <body>
-    <h1 id="hello-world"></h1>
+    <div class="main-container">
+        <div class="title">COVID-19 Tracker</div>
+        <div class="buttons-container">
+            <div class="button">
+                <div class="icon-container infected"><i class="fas fa-virus"></i></div>
+                <div class="info-container">
+                    <div class="general-info">
+                        <div class="category">Infected</div>
+                        <div class="total">2.5M</div>
+                    </div>
+                    <div class="delta">675281</div>
+                </div>
+            </div>
+            <div class="button">
+                <div class="icon-container deaths"><i class="fas fa-skull"></i></div>
+                <div class="info-container">
+                    <div class="general-info">
+                        <div class="category">Deaths</div>
+                        <div class="total">2.5M</div>
+                    </div>
+                    <div class="delta">675281</div>
+                </div>
+            </div>
+            <div class="button">
+                <div class="icon-container recovered"><i class="fas fa-laptop-medical"></i></div>
+                <div class="info-container">
+                    <div class="general-info">
+                        <div class="category">Recovered</div>
+                        <div class="total">2.5M</div>
+                    </div>
+                    <div class="delta">675281</div>
+                </div>
+            </div>
+            <div class="button">
+                <div class="icon-container total-cases"><i class="fas fa-globe-americas"></i></div>
+                <div class="info-container">
+                    <div class="general-info">
+                        <div class="category">Total</div>
+                        <div class="total">2.5M</div>
+                    </div>
+                    <div class="delta">675281</div>
+                </div>
+            </div>
+        </div>
+        <div class="map-container"></div>
+    </div>
+    <div class="side-pane-container">
+        <div class="search-bar"></div>
+        <div class="country-list-container">
+            <div class="country-container">
+                <div class="country-flag-container">
+                    <img src="https://disease.sh/assets/img/flags/ca.png" alt="Canada">
+                </div>
+                <div class="country-info-container"></div>
+            </div>
+            <div class="country-container">
+                <div class="country-flag-container">
+                    <img src="https://disease.sh/assets/img/flags/ca.png" alt="Canada">
+                </div>
+                <div class="country-info-container"></div>
+            </div>
+            <div class="country-container">
+                <div class="country-flag-container">
+                    <img src="https://disease.sh/assets/img/flags/ca.png" alt="Canada">
+                </div>
+                <div class="country-info-container"></div>
+            </div>
+        </div>
+    </div>
+
+
+
     <script src="index.js"></script>
 </body>
 
