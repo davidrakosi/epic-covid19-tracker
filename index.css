@@ -162,3 +162,9 @@ body {
 .country-info-container {
     width: 80%;
 }
+
+.map-container{
+    height: 70%;
+    width: 100%;
+margin-top: 1%;
+}

@@ -33,7 +33,7 @@ buildCountryList = (countriesData) => {
                         style="background-image: url(${countryEntry.countryInfo.flag})"></div>
                     <div class="country-name">${countryEntry.country}</div>
                 </div>
-                <div class="country-total-cases">${countryEntry.active}</div>
+                <div class="country-total-cases">${addDecimals(countryEntry.active)}</div>
             </div>
         `
     })
