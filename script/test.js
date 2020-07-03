@@ -1,0 +1,3 @@
+testFunction=()=>{
+    console.log('test')
+}

@@ -17,7 +17,8 @@ body {
     font-size: 80px;
     font-weight: 600;
     color: white;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    margin-left: 1%;
 }
 
 .buttons-container {
@@ -37,7 +38,7 @@ body {
     margin-right: 10px;
 }
 
-.icon-container i{
+.icon-container i {
     height: 100%;
     width: 100%;
     font-size: 50px;
@@ -86,5 +87,78 @@ body {
 
 .side-pane-container {
     width: 35%;
+    height: 100vh;
     background-color: #44444C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar {
+    height: 50px;
+    width: 90%;
+    background-color: #282A2F;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    margin: 10%;
+}
+
+.search-bar i {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.country-list-container {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #282A2F;
+    border-radius: 12px;
+    overflow-y: hidden;
+}
+
+.country-list{
+    overflow-y: scroll;
+}
+
+.country-container {
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+}
+
+.country-flag-name {
+    display: flex;
+    align-items: center;
+}
+
+.country-name {
+    padding-left: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.country-flag-container {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country-total-cases {
+    padding-left: 65px;
+    color: white;
+}
+
+.country-info-container {
+    width: 80%;
 }

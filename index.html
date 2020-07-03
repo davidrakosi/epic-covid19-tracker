@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f1b887a66b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <script src="/index.js"></script>
+    <script src="/script/perCountries.js"></script>
+    <script src="/script/today.js"></script>
+    <script src="/script/test.js"></script>
     <title>Epic COVID-19 Tracker</title>
 </head>
 
@@ -19,9 +22,9 @@
                 <div class="info-container">
                     <div class="general-info">
                         <div class="category">Infected</div>
-                        <div class="total">2.5M</div>
+                        <div class="total" id="active-total"></div>
                     </div>
-                    <div class="delta">675281</div>
+                    <div class="delta" id="active-delta"></div>
                 </div>
             </div>
             <div class="button">
@@ -29,9 +32,9 @@
                 <div class="info-container">
                     <div class="general-info">
                         <div class="category">Deaths</div>
-                        <div class="total">2.5M</div>
+                        <div class="total" id="deaths-total"></div>
                     </div>
-                    <div class="delta">675281</div>
+                    <div class="delta" id="deaths-delta"></div>
                 </div>
             </div>
             <div class="button">
@@ -39,9 +42,9 @@
                 <div class="info-container">
                     <div class="general-info">
                         <div class="category">Recovered</div>
-                        <div class="total">2.5M</div>
+                        <div class="total" id="recovered-total"></div>
                     </div>
-                    <div class="delta">675281</div>
+                    <div class="delta" id="recovered-delta"></div>
                 </div>
             </div>
             <div class="button">
@@ -49,41 +52,25 @@
                 <div class="info-container">
                     <div class="general-info">
                         <div class="category">Total</div>
-                        <div class="total">2.5M</div>
+                        <div class="total" id="cases-total"></div>
                     </div>
-                    <div class="delta">675281</div>
+                    <div class="delta" id="cases-delta"></div>
                 </div>
             </div>
         </div>
         <div class="map-container"></div>
     </div>
     <div class="side-pane-container">
-        <div class="search-bar"></div>
+        <div class="search-bar"><i class="fas fa-search"></i>Search</div>
         <div class="country-list-container">
-            <div class="country-container">
-                <div class="country-flag-container">
-                    <img src="https://disease.sh/assets/img/flags/ca.png" alt="Canada">
-                </div>
-                <div class="country-info-container"></div>
-            </div>
-            <div class="country-container">
-                <div class="country-flag-container">
-                    <img src="https://disease.sh/assets/img/flags/ca.png" alt="Canada">
-                </div>
-                <div class="country-info-container"></div>
-            </div>
-            <div class="country-container">
-                <div class="country-flag-container">
-                    <img src="https://disease.sh/assets/img/flags/ca.png" alt="Canada">
-                </div>
-                <div class="country-info-container"></div>
+            <div class="country-list" id="country-list">
+
             </div>
         </div>
     </div>
 
-
-
-    <script src="index.js"></script>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script> -->
 </body>
 
 </html>
