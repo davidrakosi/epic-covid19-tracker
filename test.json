@@ -1,0 +1,1506 @@
+{
+    "Mexico":{
+        "center": {"lat": 23, "lng": -102},
+        "active": 68203,
+        "deaths": 29843,
+        "recovered": 147205
+    },
+
+    "Russia":{
+        "center": {"lat": 60, "lng": 100},
+        "active": 217609,
+        "deaths": 10027,
+        "recovered": 446879
+    },
+
+    "Pakistan":{
+        "center": {"lat": 30, "lng": 70},
+        "active": 95570,
+        "deaths": 4619,
+        "recovered": 125094
+    },
+
+    "Kazakhstan":{
+        "center": {"lat": 48, "lng": 68},
+        "active": 18781,
+        "deaths": 188,
+        "recovered": 26750
+    },
+
+    "Philippines":{
+        "center": {"lat": 13, "lng": 122},
+        "active": 29087,
+        "deaths": 1290,
+        "recovered": 11453
+    },
+
+    "Indonesia":{
+        "center": {"lat": -5, "lng": 120},
+        "active": 30834,
+        "deaths": 3089,
+        "recovered": 28219
+    },
+
+    "Bolivia":{
+        "center": {"lat": -17, "lng": -65},
+        "active": 24732,
+        "deaths": 1320,
+        "recovered": 10766
+    },
+
+    "Honduras":{
+        "center": {"lat": 15, "lng": -86.5},
+        "active": 19261,
+        "deaths": 605,
+        "recovered": 2250
+    },
+
+    "Ukraine":{
+        "center": {"lat": 49, "lng": 32},
+        "active": 25335,
+        "deaths": 1227,
+        "recovered": 21115
+    },
+
+    "Armenia":{
+        "center": {"lat": 40, "lng": 45},
+        "active": 11488,
+        "deaths": 477,
+        "recovered": 15935
+    },
+
+    "India":{
+        "center": {"lat": 20, "lng": 77},
+        "active": 237351,
+        "deaths": 18669,
+        "recovered": 394411
+    },
+
+    "Afghanistan":{
+        "center": {"lat": 33, "lng": 65},
+        "active": 12682,
+        "deaths": 826,
+        "recovered": 19164
+    },
+
+    "Kyrgyzstan":{
+        "center": {"lat": 41, "lng": 75},
+        "active": 4302,
+        "deaths": 78,
+        "recovered": 2714
+    },
+
+    "Poland":{
+        "center": {"lat": 52, "lng": 20},
+        "active": 11080,
+        "deaths": 1512,
+        "recovered": 23127
+    },
+
+    "Palestine":{
+        "center": {"lat": 32, "lng": 35.25},
+        "active": 3124,
+        "deaths": 12,
+        "recovered": 463
+    },
+
+    "El Salvador":{
+        "center": {"lat": 13.8333, "lng": -88.9167},
+        "active": 2863,
+        "deaths": 210,
+        "recovered": 4434
+    },
+
+    "Singapore":{
+        "center": {"lat": 1.3667, "lng": 103.8},
+        "active": 4869,
+        "deaths": 26,
+        "recovered": 39769
+    },
+
+    "Morocco":{
+        "center": {"lat": 32, "lng": -5},
+        "active": 3988,
+        "deaths": 232,
+        "recovered": 9214
+    },
+
+    "Haiti":{
+        "center": {"lat": 19, "lng": -72.4167},
+        "active": 4834,
+        "deaths": 110,
+        "recovered": 1286
+    },
+
+    "Austria":{
+        "center": {"lat": 47.3333, "lng": 13.3333},
+        "active": 853,
+        "deaths": 705,
+        "recovered": 16607
+    },
+
+    "Australia":{
+        "center": {"lat": -27, "lng": 133},
+        "active": 903,
+        "deaths": 104,
+        "recovered": 7355
+    },
+
+    "Uzbekistan":{
+        "center": {"lat": 41, "lng": 64},
+        "active": 3220,
+        "deaths": 29,
+        "recovered": 6251
+    },
+
+    "DRC":{
+        "center": {"lat": 0, "lng": 25},
+        "active": 4236,
+        "deaths": 182,
+        "recovered": 2961
+    },
+
+    "S. Korea":{
+        "center": {"lat": 37, "lng": 127.5},
+        "active": 936,
+        "deaths": 283,
+        "recovered": 11811
+    },
+
+    "Slovakia":{
+        "center": {"lat": 48.6667, "lng": 19.5},
+        "active": 255,
+        "deaths": 28,
+        "recovered": 1466
+    },
+
+    "Slovenia":{
+        "center": {"lat": 46, "lng": 15},
+        "active": 184,
+        "deaths": 111,
+        "recovered": 1384
+    },
+
+    "Uganda":{
+        "center": {"lat": 1, "lng": 32},
+        "active": 78,
+        "deaths": 0,
+        "recovered": 849
+    },
+
+    "Malaysia":{
+        "center": {"lat": 2.5, "lng": 112.5},
+        "active": 76,
+        "deaths": 121,
+        "recovered": 8461
+    },
+
+    "Finland":{
+        "center": {"lat": 64, "lng": 26},
+        "active": 219,
+        "deaths": 329,
+        "recovered": 6700
+    },
+
+    "Jamaica":{
+        "center": {"lat": 18.25, "lng": -77.5},
+        "active": 146,
+        "deaths": 10,
+        "recovered": 565
+    },
+
+    "Thailand":{
+        "center": {"lat": 15, "lng": 100},
+        "active": 61,
+        "deaths": 58,
+        "recovered": 3066
+    },
+
+    "China":{
+        "center": {"lat": 35, "lng": 105},
+        "active": 402,
+        "deaths": 4634,
+        "recovered": 78509
+    },
+
+    "Georgia":{
+        "center": {"lat": 42, "lng": 43.5},
+        "active": 106,
+        "deaths": 15,
+        "recovered": 825
+    },
+
+    "Belize":{
+        "center": {"lat": 17.25, "lng": -88.75},
+        "active": 9,
+        "deaths": 2,
+        "recovered": 19
+    },
+
+    "Estonia":{
+        "center": {"lat": 59, "lng": 26},
+        "active": 54,
+        "deaths": 69,
+        "recovered": 1870
+    },
+
+    "Hungary":{
+        "center": {"lat": 47, "lng": 20},
+        "active": 833,
+        "deaths": 589,
+        "recovered": 2752
+    },
+
+    "Bhutan":{
+        "center": {"lat": 27.5, "lng": 90.5},
+        "active": 27,
+        "deaths": 0,
+        "recovered": 51
+    },
+
+    "Latvia":{
+        "center": {"lat": 57, "lng": 25},
+        "active": 93,
+        "deaths": 30,
+        "recovered": 1000
+    },
+
+    "Sint Maarten":{
+        "center": {"lat": 18.02, "lng": -63.06},
+        "active": 0,
+        "deaths": 15,
+        "recovered": 63
+    },
+
+    "Turks and Caicos Islands":{
+        "center": {"lat": 21.75, "lng": -71.5833},
+        "active": 32,
+        "deaths": 2,
+        "recovered": 11
+    },
+
+    "Albania":{
+        "center": {"lat": 41, "lng": 20},
+        "active": 1088,
+        "deaths": 72,
+        "recovered": 1592
+    },
+
+    "Algeria":{
+        "center": {"lat": 28, "lng": 3},
+        "active": 3301,
+        "deaths": 937,
+        "recovered": 10832
+    },
+
+    "Andorra":{
+        "center": {"lat": 42.5, "lng": 1.6},
+        "active": 3,
+        "deaths": 52,
+        "recovered": 800
+    },
+
+    "Angola":{
+        "center": {"lat": -12.5, "lng": 18.5},
+        "active": 203,
+        "deaths": 18,
+        "recovered": 107
+    },
+
+    "Anguilla":{
+        "center": {"lat": 18.25, "lng": -63.1667},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 3
+    },
+
+    "Antigua and Barbuda":{
+        "center": {"lat": 17.05, "lng": -61.8},
+        "active": 42,
+        "deaths": 3,
+        "recovered": 23
+    },
+
+    "Argentina":{
+        "center": {"lat": -34, "lng": -64},
+        "active": 46125,
+        "deaths": 1437,
+        "recovered": 25224
+    },
+
+    "Aruba":{
+        "center": {"lat": 12.5, "lng": -69.9667},
+        "active": 3,
+        "deaths": 3,
+        "recovered": 98
+    },
+
+    "Azerbaijan":{
+        "center": {"lat": 40.5, "lng": 47.5},
+        "active": 8212,
+        "deaths": 235,
+        "recovered": 10820
+    },
+
+    "Bahamas":{
+        "center": {"lat": 24.25, "lng": -76},
+        "active": 4,
+        "deaths": 11,
+        "recovered": 89
+    },
+
+    "Bahrain":{
+        "center": {"lat": 26, "lng": 50.55},
+        "active": 4997,
+        "deaths": 95,
+        "recovered": 23318
+    },
+
+    "Bangladesh":{
+        "center": {"lat": 24, "lng": 90},
+        "active": 86375,
+        "deaths": 1968,
+        "recovered": 68048
+    },
+
+    "Barbados":{
+        "center": {"lat": 13.1667, "lng": -59.5333},
+        "active": 0,
+        "deaths": 7,
+        "recovered": 90
+    },
+
+    "Belarus":{
+        "center": {"lat": 53, "lng": 28},
+        "active": 12676,
+        "deaths": 412,
+        "recovered": 49909
+    },
+
+    "Belgium":{
+        "center": {"lat": 50.8333, "lng": 4},
+        "active": 34889,
+        "deaths": 9765,
+        "recovered": 17073
+    },
+
+    "Benin":{
+        "center": {"lat": 9.5, "lng": 2.25},
+        "active": 845,
+        "deaths": 21,
+        "recovered": 333
+    },
+
+    "Bermuda":{
+        "center": {"lat": 32.3333, "lng": -64.75},
+        "active": 0,
+        "deaths": 9,
+        "recovered": 137
+    },
+
+    "Bosnia":{
+        "center": {"lat": 44, "lng": 18},
+        "active": 2221,
+        "deaths": 191,
+        "recovered": 2550
+    },
+
+    "Botswana":{
+        "center": {"lat": -22, "lng": 24},
+        "active": 247,
+        "deaths": 1,
+        "recovered": 29
+    },
+
+    "Brazil":{
+        "center": {"lat": -10, "lng": -55},
+        "active": 501472,
+        "deaths": 63254,
+        "recovered": 978615
+    },
+
+    "British Virgin Islands":{
+        "center": {"lat": 18.5, "lng": -64.5},
+        "active": 0,
+        "deaths": 1,
+        "recovered": 7
+    },
+
+    "Brunei":{
+        "center": {"lat": 4.5, "lng": 114.6667},
+        "active": 0,
+        "deaths": 3,
+        "recovered": 138
+    },
+
+    "Bulgaria":{
+        "center": {"lat": 43, "lng": 25},
+        "active": 2366,
+        "deaths": 239,
+        "recovered": 2892
+    },
+
+    "Burkina Faso":{
+        "center": {"lat": 13, "lng": -2},
+        "active": 75,
+        "deaths": 53,
+        "recovered": 852
+    },
+
+    "Burundi":{
+        "center": {"lat": -3.5, "lng": 30},
+        "active": 72,
+        "deaths": 1,
+        "recovered": 118
+    },
+
+    "Cabo Verde":{
+        "center": {"lat": 16, "lng": -24},
+        "active": 738,
+        "deaths": 15,
+        "recovered": 629
+    },
+
+    "Cambodia":{
+        "center": {"lat": 13, "lng": 105},
+        "active": 10,
+        "deaths": 0,
+        "recovered": 131
+    },
+
+    "Cameroon":{
+        "center": {"lat": 6, "lng": 12},
+        "active": 2179,
+        "deaths": 313,
+        "recovered": 10100
+    },
+
+    "Canada":{
+        "center": {"lat": 60, "lng": -95},
+        "active": 27735,
+        "deaths": 8663,
+        "recovered": 68693
+    },
+
+    "Caribbean Netherlands":{
+        "center": {"lat": 12.2, "lng": -68.26},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 7
+    },
+
+    "Cayman Islands":{
+        "center": {"lat": 19.5, "lng": -80.5},
+        "active": 6,
+        "deaths": 1,
+        "recovered": 194
+    },
+
+    "Central African Republic":{
+        "center": {"lat": 7, "lng": 21},
+        "active": 3011,
+        "deaths": 48,
+        "recovered": 859
+    },
+
+    "Chad":{
+        "center": {"lat": 15, "lng": 19},
+        "active": 11,
+        "deaths": 74,
+        "recovered": 786
+    },
+
+    "Channel Islands":{
+        "center": {"lat": 49.21, "lng": -2.13},
+        "active": 12,
+        "deaths": 47,
+        "recovered": 512
+    },
+
+    "Chile":{
+        "center": {"lat": -30, "lng": -71},
+        "active": 28695,
+        "deaths": 6051,
+        "recovered": 253343
+    },
+
+    "Colombia":{
+        "center": {"lat": 4, "lng": -72},
+        "active": 60394,
+        "deaths": 3777,
+        "recovered": 45334
+    },
+
+    "Comoros":{
+        "center": {"lat": -12.1667, "lng": 44.25},
+        "active": 61,
+        "deaths": 7,
+        "recovered": 241
+    },
+
+    "Congo":{
+        "center": {"lat": -1, "lng": 15},
+        "active": 1012,
+        "deaths": 44,
+        "recovered": 501
+    },
+
+    "Costa Rica":{
+        "center": {"lat": 10, "lng": -84},
+        "active": 2636,
+        "deaths": 18,
+        "recovered": 1657
+    },
+
+    "Croatia":{
+        "center": {"lat": 45.1667, "lng": 15.5},
+        "active": 728,
+        "deaths": 112,
+        "recovered": 2168
+    },
+
+    "Cuba":{
+        "center": {"lat": 21.5, "lng": -80},
+        "active": 51,
+        "deaths": 86,
+        "recovered": 2224
+    },
+
+    "Curaçao":{
+        "center": {"lat": 12.15, "lng": -68.97},
+        "active": 3,
+        "deaths": 1,
+        "recovered": 19
+    },
+
+    "Cyprus":{
+        "center": {"lat": 35, "lng": 33},
+        "active": 141,
+        "deaths": 19,
+        "recovered": 839
+    },
+
+    "Czechia":{
+        "center": {"lat": 49.75, "lng": 15.5},
+        "active": 4118,
+        "deaths": 353,
+        "recovered": 7848
+    },
+
+    "Côte d'Ivoire":{
+        "center": {"lat": 8, "lng": -5},
+        "active": 5448,
+        "deaths": 70,
+        "recovered": 4726
+    },
+
+    "Denmark":{
+        "center": {"lat": 56, "lng": 10},
+        "active": 409,
+        "deaths": 606,
+        "recovered": 11817
+    },
+
+    "Diamond Princess":{
+        "center": {"lat": 0, "lng": 0},
+        "active": 48,
+        "deaths": 13,
+        "recovered": 651
+    },
+
+    "Djibouti":{
+        "center": {"lat": 11.5, "lng": 43},
+        "active": 101,
+        "deaths": 55,
+        "recovered": 4580
+    },
+
+    "Dominica":{
+        "center": {"lat": 15.4167, "lng": -61.3333},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 18
+    },
+
+    "Dominican Republic":{
+        "center": {"lat": 19, "lng": -70.6667},
+        "active": 15981,
+        "deaths": 775,
+        "recovered": 18392
+    },
+
+    "Ecuador":{
+        "center": {"lat": -2, "lng": -77.5},
+        "active": 27566,
+        "deaths": 4700,
+        "recovered": 28391
+    },
+
+    "Egypt":{
+        "center": {"lat": 27, "lng": 30},
+        "active": 49820,
+        "deaths": 3201,
+        "recovered": 19690
+    },
+
+    "Equatorial Guinea":{
+        "center": {"lat": 2, "lng": 10},
+        "active": 2178,
+        "deaths": 51,
+        "recovered": 842
+    },
+
+    "Eritrea":{
+        "center": {"lat": 15, "lng": 39},
+        "active": 159,
+        "deaths": 0,
+        "recovered": 56
+    },
+
+    "Ethiopia":{
+        "center": {"lat": 8, "lng": 38},
+        "active": 3313,
+        "deaths": 103,
+        "recovered": 2430
+    },
+
+    "Falkland Islands (Malvinas)":{
+        "center": {"lat": -51.75, "lng": -59},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 13
+    },
+
+    "Faroe Islands":{
+        "center": {"lat": 62, "lng": -7},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 187
+    },
+
+    "Fiji":{
+        "center": {"lat": -18, "lng": 175},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 18
+    },
+
+    "France":{
+        "center": {"lat": 46, "lng": 2},
+        "active": 60007,
+        "deaths": 29893,
+        "recovered": 77060
+    },
+
+    "French Guiana":{
+        "center": {"lat": 4, "lng": -53},
+        "active": 2765,
+        "deaths": 16,
+        "recovered": 1777
+    },
+
+    "French Polynesia":{
+        "center": {"lat": -15, "lng": -140},
+        "active": 2,
+        "deaths": 0,
+        "recovered": 60
+    },
+
+    "Gabon":{
+        "center": {"lat": -1, "lng": 11.75},
+        "active": 3021,
+        "deaths": 44,
+        "recovered": 2555
+    },
+
+    "Gambia":{
+        "center": {"lat": 13.4667, "lng": -16.5667},
+        "active": 26,
+        "deaths": 2,
+        "recovered": 27
+    },
+
+    "Germany":{
+        "center": {"lat": 51, "lng": 9},
+        "active": 6627,
+        "deaths": 9073,
+        "recovered": 181300
+    },
+
+    "Ghana":{
+        "center": {"lat": 8, "lng": -2},
+        "active": 4941,
+        "deaths": 117,
+        "recovered": 14330
+    },
+
+    "Gibraltar":{
+        "center": {"lat": 36.1833, "lng": -5.3667},
+        "active": 2,
+        "deaths": 0,
+        "recovered": 176
+    },
+
+    "Greece":{
+        "center": {"lat": 39, "lng": 22},
+        "active": 1920,
+        "deaths": 192,
+        "recovered": 1374
+    },
+
+    "Greenland":{
+        "center": {"lat": 72, "lng": -40},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 13
+    },
+
+    "Grenada":{
+        "center": {"lat": 12.1167, "lng": -61.6667},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 23
+    },
+
+    "Guadeloupe":{
+        "center": {"lat": 16.25, "lng": -61.5833},
+        "active": 13,
+        "deaths": 14,
+        "recovered": 157
+    },
+
+    "Guatemala":{
+        "center": {"lat": 15.5, "lng": -90.25},
+        "active": 17098,
+        "deaths": 880,
+        "recovered": 3315
+    },
+
+    "Guinea":{
+        "center": {"lat": 11, "lng": -10},
+        "active": 1042,
+        "deaths": 33,
+        "recovered": 4446
+    },
+
+    "Guinea-Bissau":{
+        "center": {"lat": 12, "lng": -15},
+        "active": 1064,
+        "deaths": 25,
+        "recovered": 676
+    },
+
+    "Guyana":{
+        "center": {"lat": 5, "lng": -59},
+        "active": 125,
+        "deaths": 14,
+        "recovered": 117
+    },
+
+    "Holy See (Vatican City State)":{
+        "center": {"lat": 41.9, "lng": 12.45},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 12
+    },
+
+    "Hong Kong":{
+        "center": {"lat": 22.25, "lng": 114.1667},
+        "active": 116,
+        "deaths": 7,
+        "recovered": 1125
+    },
+
+    "Iceland":{
+        "center": {"lat": 65, "lng": -18},
+        "active": 13,
+        "deaths": 10,
+        "recovered": 1832
+    },
+
+    "Iran":{
+        "center": {"lat": 32, "lng": 53},
+        "active": 27723,
+        "deaths": 11260,
+        "recovered": 196446
+    },
+
+    "Iraq":{
+        "center": {"lat": 33, "lng": 44},
+        "active": 24158,
+        "deaths": 2262,
+        "recovered": 29600
+    },
+
+    "Ireland":{
+        "center": {"lat": 53, "lng": -8},
+        "active": 394,
+        "deaths": 1740,
+        "recovered": 23364
+    },
+
+    "Isle of Man":{
+        "center": {"lat": 54.23, "lng": -4.55},
+        "active": 0,
+        "deaths": 24,
+        "recovered": 312
+    },
+
+    "Israel":{
+        "center": {"lat": 31.5, "lng": 34.75},
+        "active": 10060,
+        "deaths": 326,
+        "recovered": 17669
+    },
+
+    "Italy":{
+        "center": {"lat": 42.8333, "lng": 12.8333},
+        "active": 14884,
+        "deaths": 34833,
+        "recovered": 191467
+    },
+
+    "Japan":{
+        "center": {"lat": 36, "lng": 138},
+        "active": 1226,
+        "deaths": 976,
+        "recovered": 16866
+    },
+
+    "Jordan":{
+        "center": {"lat": 31, "lng": 36},
+        "active": 240,
+        "deaths": 10,
+        "recovered": 897
+    },
+
+    "Kenya":{
+        "center": {"lat": 1, "lng": 38},
+        "active": 4886,
+        "deaths": 154,
+        "recovered": 2148
+    },
+
+    "Kuwait":{
+        "center": {"lat": 29.3375, "lng": 47.6581},
+        "active": 9036,
+        "deaths": 360,
+        "recovered": 39276
+    },
+
+    "Lao People's Democratic Republic":{
+        "center": {"lat": 18, "lng": 105},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 19
+    },
+
+    "Lebanon":{
+        "center": {"lat": 33.8333, "lng": 35.8333},
+        "active": 503,
+        "deaths": 35,
+        "recovered": 1292
+    },
+
+    "Lesotho":{
+        "center": {"lat": -29.5, "lng": 28.5},
+        "active": 24,
+        "deaths": 0,
+        "recovered": 11
+    },
+
+    "Liberia":{
+        "center": {"lat": 6.5, "lng": -9.5},
+        "active": 450,
+        "deaths": 37,
+        "recovered": 346
+    },
+
+    "Libyan Arab Jamahiriya":{
+        "center": {"lat": 25, "lng": 17},
+        "active": 661,
+        "deaths": 27,
+        "recovered": 230
+    },
+
+    "Liechtenstein":{
+        "center": {"lat": 47.1667, "lng": 9.5333},
+        "active": 1,
+        "deaths": 1,
+        "recovered": 81
+    },
+
+    "Lithuania":{
+        "center": {"lat": 56, "lng": 24},
+        "active": 210,
+        "deaths": 79,
+        "recovered": 1539
+    },
+
+    "Luxembourg":{
+        "center": {"lat": 49.75, "lng": 6.1667},
+        "active": 321,
+        "deaths": 110,
+        "recovered": 4016
+    },
+
+    "MS Zaandam":{
+        "center": {"lat": 0, "lng": 0},
+        "active": 7,
+        "deaths": 2,
+        "recovered": 0
+    },
+
+    "Macao":{
+        "center": {"lat": 22.1667, "lng": 113.55},
+        "active": 1,
+        "deaths": 0,
+        "recovered": 45
+    },
+
+    "Macedonia":{
+        "center": {"lat": 41.8333, "lng": 22},
+        "active": 3583,
+        "deaths": 328,
+        "recovered": 2876
+    },
+
+    "Madagascar":{
+        "center": {"lat": -20, "lng": 47},
+        "active": 1429,
+        "deaths": 26,
+        "recovered": 1057
+    },
+
+    "Malawi":{
+        "center": {"lat": -13.5, "lng": 34},
+        "active": 1165,
+        "deaths": 16,
+        "recovered": 317
+    },
+
+    "Maldives":{
+        "center": {"lat": 3.25, "lng": 73},
+        "active": 424,
+        "deaths": 10,
+        "recovered": 1976
+    },
+
+    "Mali":{
+        "center": {"lat": 17, "lng": -4},
+        "active": 661,
+        "deaths": 117,
+        "recovered": 1507
+    },
+
+    "Malta":{
+        "center": {"lat": 35.8333, "lng": 14.5833},
+        "active": 13,
+        "deaths": 9,
+        "recovered": 650
+    },
+
+    "Martinique":{
+        "center": {"lat": 14.6667, "lng": -61},
+        "active": 137,
+        "deaths": 14,
+        "recovered": 98
+    },
+
+    "Mauritania":{
+        "center": {"lat": 20, "lng": -12},
+        "active": 2811,
+        "deaths": 129,
+        "recovered": 1765
+    },
+
+    "Mauritius":{
+        "center": {"lat": -20.2833, "lng": 57.55},
+        "active": 1,
+        "deaths": 10,
+        "recovered": 330
+    },
+
+    "Mayotte":{
+        "center": {"lat": -12.8333, "lng": 45.1667},
+        "active": 251,
+        "deaths": 35,
+        "recovered": 2375
+    },
+
+    "Moldova":{
+        "center": {"lat": 47, "lng": 29},
+        "active": 6776,
+        "deaths": 576,
+        "recovered": 10093
+    },
+
+    "Monaco":{
+        "center": {"lat": 43.7333, "lng": 7.4},
+        "active": 7,
+        "deaths": 4,
+        "recovered": 95
+    },
+
+    "Mongolia":{
+        "center": {"lat": 46, "lng": 105},
+        "active": 37,
+        "deaths": 0,
+        "recovered": 183
+    },
+
+    "Montenegro":{
+        "center": {"lat": 42, "lng": 19},
+        "active": 335,
+        "deaths": 13,
+        "recovered": 315
+    },
+
+    "Montserrat":{
+        "center": {"lat": 16.75, "lng": -62.2},
+        "active": 0,
+        "deaths": 1,
+        "recovered": 10
+    },
+
+    "Mozambique":{
+        "center": {"lat": -18.25, "lng": 35},
+        "active": 684,
+        "deaths": 6,
+        "recovered": 249
+    },
+
+    "Myanmar":{
+        "center": {"lat": 22, "lng": 98},
+        "active": 63,
+        "deaths": 6,
+        "recovered": 237
+    },
+
+    "Namibia":{
+        "center": {"lat": -22, "lng": 17},
+        "active": 325,
+        "deaths": 0,
+        "recovered": 25
+    },
+
+    "Nepal":{
+        "center": {"lat": 28, "lng": 84},
+        "active": 9084,
+        "deaths": 32,
+        "recovered": 6143
+    },
+
+    "Netherlands":{
+        "center": {"lat": 52.5, "lng": 5.75},
+        "active": 44222,
+        "deaths": 6113,
+        "recovered": 0
+    },
+
+    "New Caledonia":{
+        "center": {"lat": -21.5, "lng": 165.5},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 21
+    },
+
+    "New Zealand":{
+        "center": {"lat": -41, "lng": 174},
+        "active": 18,
+        "deaths": 22,
+        "recovered": 1490
+    },
+
+    "Nicaragua":{
+        "center": {"lat": 13, "lng": -85},
+        "active": 1198,
+        "deaths": 83,
+        "recovered": 1238
+    },
+
+    "Niger":{
+        "center": {"lat": 16, "lng": 8},
+        "active": 51,
+        "deaths": 68,
+        "recovered": 963
+    },
+
+    "Nigeria":{
+        "center": {"lat": 10, "lng": 8},
+        "active": 15867,
+        "deaths": 628,
+        "recovered": 11069
+    },
+
+    "Norway":{
+        "center": {"lat": 62, "lng": 10},
+        "active": 532,
+        "deaths": 251,
+        "recovered": 8138
+    },
+
+    "Oman":{
+        "center": {"lat": 21, "lng": 57},
+        "active": 17557,
+        "deaths": 203,
+        "recovered": 26169
+    },
+
+    "Panama":{
+        "center": {"lat": 9, "lng": -80},
+        "active": 18352,
+        "deaths": 698,
+        "recovered": 16945
+    },
+
+    "Papua New Guinea":{
+        "center": {"lat": -6, "lng": 147},
+        "active": 3,
+        "deaths": 0,
+        "recovered": 8
+    },
+
+    "Paraguay":{
+        "center": {"lat": -23, "lng": -58},
+        "active": 1217,
+        "deaths": 19,
+        "recovered": 1113
+    },
+
+    "Peru":{
+        "center": {"lat": -10, "lng": -76},
+        "active": 99521,
+        "deaths": 10226,
+        "recovered": 185852
+    },
+
+    "Portugal":{
+        "center": {"lat": 39.5, "lng": -8},
+        "active": 13134,
+        "deaths": 1598,
+        "recovered": 28424
+    },
+
+    "Qatar":{
+        "center": {"lat": 25.5, "lng": 51.25},
+        "active": 9949,
+        "deaths": 121,
+        "recovered": 88583
+    },
+
+    "Romania":{
+        "center": {"lat": 46, "lng": 25},
+        "active": 6913,
+        "deaths": 1708,
+        "recovered": 19545
+    },
+
+    "Rwanda":{
+        "center": {"lat": -2, "lng": 30},
+        "active": 566,
+        "deaths": 3,
+        "recovered": 512
+    },
+
+    "Réunion":{
+        "center": {"lat": -21.1, "lng": 55.6},
+        "active": 59,
+        "deaths": 2,
+        "recovered": 472
+    },
+
+    "Saint Kitts and Nevis":{
+        "center": {"lat": 17.3333, "lng": -62.75},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 15
+    },
+
+    "Saint Lucia":{
+        "center": {"lat": 13.8833, "lng": -61.1333},
+        "active": 3,
+        "deaths": 0,
+        "recovered": 19
+    },
+
+    "Saint Martin":{
+        "center": {"lat": 18.11, "lng": -63.03},
+        "active": 3,
+        "deaths": 3,
+        "recovered": 37
+    },
+
+    "Saint Pierre Miquelon":{
+        "center": {"lat": 46.8333, "lng": -56.3333},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 1
+    },
+
+    "Saint Vincent and the Grenadines":{
+        "center": {"lat": 13.25, "lng": -61.2},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 29
+    },
+
+    "San Marino":{
+        "center": {"lat": 43.7667, "lng": 12.4167},
+        "active": 0,
+        "deaths": 42,
+        "recovered": 656
+    },
+
+    "Sao Tome and Principe":{
+        "center": {"lat": 1, "lng": 7},
+        "active": 439,
+        "deaths": 13,
+        "recovered": 267
+    },
+
+    "Saudi Arabia":{
+        "center": {"lat": 25, "lng": 45},
+        "active": 59385,
+        "deaths": 1802,
+        "recovered": 140614
+    },
+
+    "Senegal":{
+        "center": {"lat": 14, "lng": -14},
+        "active": 2373,
+        "deaths": 125,
+        "recovered": 4666
+    },
+
+    "Serbia":{
+        "center": {"lat": 44, "lng": 21},
+        "active": 2142,
+        "deaths": 298,
+        "recovered": 13064
+    },
+
+    "Seychelles":{
+        "center": {"lat": -4.5833, "lng": 55.6667},
+        "active": 70,
+        "deaths": 0,
+        "recovered": 11
+    },
+
+    "Sierra Leone":{
+        "center": {"lat": 8.5, "lng": -11.5},
+        "active": 420,
+        "deaths": 62,
+        "recovered": 1042
+    },
+
+    "Somalia":{
+        "center": {"lat": 10, "lng": 49},
+        "active": 1903,
+        "deaths": 90,
+        "recovered": 951
+    },
+
+    "South Africa":{
+        "center": {"lat": -29, "lng": 24},
+        "active": 87874,
+        "deaths": 2952,
+        "recovered": 86298
+    },
+
+    "South Sudan":{
+        "center": {"lat": 6.8769, "lng": 31.3069},
+        "active": 1650,
+        "deaths": 38,
+        "recovered": 333
+    },
+
+    "Spain":{
+        "center": {"lat": 40, "lng": -4},
+        "active": 269240,
+        "deaths": 28385,
+        "recovered": 0
+    },
+
+    "Sri Lanka":{
+        "center": {"lat": 7, "lng": 81},
+        "active": 195,
+        "deaths": 11,
+        "recovered": 1863
+    },
+
+    "St. Barth":{
+        "center": {"lat": 17.89, "lng": -62.82},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 6
+    },
+
+    "Sudan":{
+        "center": {"lat": 15, "lng": 30},
+        "active": 4435,
+        "deaths": 604,
+        "recovered": 4624
+    },
+
+    "Suriname":{
+        "center": {"lat": 4, "lng": -56},
+        "active": 281,
+        "deaths": 13,
+        "recovered": 267
+    },
+
+    "Swaziland":{
+        "center": {"lat": -26.5, "lng": 31.5},
+        "active": 381,
+        "deaths": 13,
+        "recovered": 515
+    },
+
+    "Sweden":{
+        "center": {"lat": 62, "lng": 15},
+        "active": 65999,
+        "deaths": 5420,
+        "recovered": 0
+    },
+
+    "Switzerland":{
+        "center": {"lat": 47, "lng": 8},
+        "active": 936,
+        "deaths": 1965,
+        "recovered": 29200
+    },
+
+    "Syrian Arab Republic":{
+        "center": {"lat": 35, "lng": 38},
+        "active": 195,
+        "deaths": 10,
+        "recovered": 123
+    },
+
+    "Taiwan":{
+        "center": {"lat": 23.5, "lng": 121},
+        "active": 4,
+        "deaths": 7,
+        "recovered": 438
+    },
+
+    "Tajikistan":{
+        "center": {"lat": 39, "lng": 71},
+        "active": 1316,
+        "deaths": 52,
+        "recovered": 4690
+    },
+
+    "Tanzania":{
+        "center": {"lat": -6, "lng": 35},
+        "active": 305,
+        "deaths": 21,
+        "recovered": 183
+    },
+
+    "Timor-Leste":{
+        "center": {"lat": -8.55, "lng": 125.5167},
+        "active": 0,
+        "deaths": 0,
+        "recovered": 24
+    },
+
+    "Togo":{
+        "center": {"lat": 8, "lng": 1.1667},
+        "active": 233,
+        "deaths": 14,
+        "recovered": 424
+    },
+
+    "Trinidad and Tobago":{
+        "center": {"lat": 11, "lng": -61},
+        "active": 7,
+        "deaths": 8,
+        "recovered": 115
+    },
+
+    "Tunisia":{
+        "center": {"lat": 34, "lng": 9},
+        "active": 86,
+        "deaths": 50,
+        "recovered": 1045
+    },
+
+    "Turkey":{
+        "center": {"lat": 39, "lng": 35},
+        "active": 19992,
+        "deaths": 5186,
+        "recovered": 178278
+    },
+
+    "UAE":{
+        "center": {"lat": 24, "lng": 54},
+        "active": 10670,
+        "deaths": 318,
+        "recovered": 39153
+    },
+
+    "UK":{
+        "center": {"lat": 54, "lng": -2},
+        "active": 240145,
+        "deaths": 44131,
+        "recovered": 0
+    },
+
+    "USA":{
+        "center": {"lat": 38, "lng": -97},
+        "active": 1522999,
+        "deaths": 132101,
+        "recovered": 1235488
+    },
+
+    "Uruguay":{
+        "center": {"lat": -33, "lng": -56},
+        "active": 87,
+        "deaths": 28,
+        "recovered": 837
+    },
+
+    "Venezuela":{
+        "center": {"lat": 8, "lng": -66},
+        "active": 4378,
+        "deaths": 59,
+        "recovered": 2100
+    },
+
+    "Vietnam":{
+        "center": {"lat": 21, "lng": 105.8},
+        "active": 15,
+        "deaths": 0,
+        "recovered": 340
+    },
+
+    "Western Sahara":{
+        "center": {"lat": 24.5, "lng": -13},
+        "active": 1,
+        "deaths": 1,
+        "recovered": 8
+    },
+
+    "Yemen":{
+        "center": {"lat": 15, "lng": 48},
+        "active": 369,
+        "deaths": 335,
+        "recovered": 536
+    },
+
+    "Zambia":{
+        "center": {"lat": -15, "lng": 30},
+        "active": 254,
+        "deaths": 30,
+        "recovered": 1348
+    },
+
+    "Zimbabwe":{
+        "center": {"lat": -20, "lng": 30},
+        "active": 442,
+        "deaths": 7,
+        "recovered": 176
+    }
+}

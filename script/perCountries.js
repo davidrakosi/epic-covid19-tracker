@@ -7,7 +7,7 @@ displayCountryList = (baseUrl, apiUrl) => {
 getTodaysDataPerCountries = (baseUrl, endpoint) => {
     // params 
     const yesterday = 0
-    const sort = "todayCases"
+    const sort = "cases"
     const allowNull = 0
 
     const reqUrl = `${baseUrl}${endpoint}?yesterday=${yesterday}&sort=${sort}&allowNull=${allowNull}`
@@ -18,6 +18,7 @@ getTodaysDataPerCountries = (baseUrl, endpoint) => {
         return res.json()
     }).then((data) => {
         buildCountryList(data)
+        buildCircles(data)
     })
 }
 
