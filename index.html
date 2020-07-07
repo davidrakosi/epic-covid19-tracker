@@ -4,77 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/f1b887a66b.js" crossorigin="anonymous"></script>
+
+    <!-- google charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- .css -->
     <link rel="stylesheet" href="index.css">
+
+
+    <!-- scripts -->
     <script src="/index.js"></script>
+
     <script src="/script/perCountries.js"></script>
     <script src="/script/master.js"></script>
     <script src="/script/map.js"></script>
-    <!-- <script src="/script/tools/getApiData.js"></script> -->
+
+    <script src="/script/tools/getApiData.js"></script>
     <script src="/script/tools/idkButWorks.js"></script>
     <script src="/script/tools/test.js"></script>
+    <script src="/script/tools/charts.js"></script>
+
     <title>Epic COVID-19 Tracker</title>
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="title">COVID-19 Tracker</div>
-        <div class="buttons-container">
-            <div class="button" onclick="filterActive()">
-                <div class="icon-container infected"><i class="fas fa-virus"></i></div>
-                <div class="info-container">
-                    <div class="general-info">
-                        <div class="category">Infected</div>
-                        <div class="total" id="active-total"></div>
+    <div class="page-one">
+        <div class="main-container">
+            <div class="title">COVID-19 Tracker</div>
+            <div class="buttons-container">
+                <div class="button" onclick="filterActive()">
+                    <div class="icon-container infected"><i class="fas fa-virus"></i></div>
+                    <div class="info-container">
+                        <div class="general-info">
+                            <div class="category">Infected</div>
+                            <div class="total" id="active-total"></div>
+                        </div>
+                        <div class="delta" id="active-delta"></div>
                     </div>
-                    <div class="delta" id="active-delta"></div>
+                </div>
+                <div class="button" onclick="filterDeaths()">
+                    <div class="icon-container deaths"><i class="fas fa-skull"></i></div>
+                    <div class="info-container">
+                        <div class="general-info">
+                            <div class="category">Deaths</div>
+                            <div class="total" id="deaths-total"></div>
+                        </div>
+                        <div class="delta" id="deaths-delta"></div>
+                    </div>
+                </div>
+                <div class="button" onclick="filterRecovered()">
+                    <div class="icon-container recovered"><i class="fas fa-laptop-medical"></i></div>
+                    <div class="info-container">
+                        <div class="general-info">
+                            <div class="category">Recovered</div>
+                            <div class="total" id="recovered-total"></div>
+                        </div>
+                        <div class="delta" id="recovered-delta"></div>
+                    </div>
+                </div>
+                <div class="button" onclick="showTotal()">
+                    <div class="icon-container total-cases"><i class="fas fa-globe-americas"></i></div>
+                    <div class="info-container">
+                        <div class="general-info">
+                            <div class="category">Total</div>
+                            <div class="total" id="cases-total"></div>
+                        </div>
+                        <div class="delta" id="cases-delta"></div>
+                    </div>
                 </div>
             </div>
-            <div class="button" onclick="filterDeaths()">
-                <div class="icon-container deaths"><i class="fas fa-skull"></i></div>
-                <div class="info-container">
-                    <div class="general-info">
-                        <div class="category">Deaths</div>
-                        <div class="total" id="deaths-total"></div>
-                    </div>
-                    <div class="delta" id="deaths-delta"></div>
-                </div>
-            </div>
-            <div class="button" onclick="filterRecovered()">
-                <div class="icon-container recovered"><i class="fas fa-laptop-medical"></i></div>
-                <div class="info-container">
-                    <div class="general-info">
-                        <div class="category">Recovered</div>
-                        <div class="total" id="recovered-total"></div>
-                    </div>
-                    <div class="delta" id="recovered-delta"></div>
-                </div>
-            </div>
-            <div class="button" onclick="showTotal()">
-                <div class="icon-container total-cases"><i class="fas fa-globe-americas"></i></div>
-                <div class="info-container">
-                    <div class="general-info">
-                        <div class="category">Total</div>
-                        <div class="total" id="cases-total"></div>
-                    </div>
-                    <div class="delta" id="cases-delta"></div>
+            <div class="map-container" id="map"></div>
+        </div>
+        <div class="side-pane-container">
+            <div class="search-bar"><i class="fas fa-search"></i>Search</div>
+            <div class="country-list-container">
+                <div class="country-list" id="country-list">
+
                 </div>
             </div>
         </div>
-        <div class="map-container" id="map"></div>
-        <canvas id="myChart" width="400" height="400"></canvas>
     </div>
-    <div class="side-pane-container">
-        <div class="search-bar"><i class="fas fa-search"></i>Search</div>
-        <div class="country-list-container">
-            <div class="country-list" id="country-list">
-
-            </div>
-        </div>
+    <div class="charts-container">
+        <div id="piechart" style="width: 30vw; height: 500px;"></div>
+        <div id="curve_chart" style="width: 70vw; height: 500px;"></div>
     </div>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsWnUupM1pv7W520PQPgz8XfytmOwld1w">
-    </script>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsWnUupM1pv7W520PQPgz8XfytmOwld1w">
+    </script> -->
 </body>
 
 </html>

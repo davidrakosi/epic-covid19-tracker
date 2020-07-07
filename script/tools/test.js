@@ -1,3 +1,0 @@
-testFunction=()=>{
-    console.log('test')
-}

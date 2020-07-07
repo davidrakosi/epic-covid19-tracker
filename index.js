@@ -3,6 +3,7 @@ const baseUrl = "https://disease.sh"
 
 const allTodayCasesEP = "/v3/covid-19/all"
 const todayPerCountriesEP = "/v3/covid-19/countries"
+const historicalWorldWideEP = "/v3/covid-19/historical/all"
 
 // start 
 
@@ -11,8 +12,12 @@ window.onload = () => {
 }
 
 initData = () => {
-    displayCountryList(baseUrl, todayPerCountriesEP)
-    displayDataOnMasterSelector(baseUrl, allTodayCasesEP)
+    getTodaysDataPerCountry(baseUrl, todayPerCountriesEP)
+    getTodaysData(baseUrl, allTodayCasesEP)
+    getHistoricalWorldwideData(baseUrl, historicalWorldWideEP)
+
+    // displayCountryList(baseUrl, todayPerCountriesEP)
+    // displayDataOnMasterSelector(baseUrl, allTodayCasesEP)
 }
 
 filterActive = () => {

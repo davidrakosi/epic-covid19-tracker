@@ -19,3 +19,118 @@ addDecimals = (num) => {
 eArabic = (x) => {
     return x.toLocaleString('en-US');
 }
+
+//######################################################################################################
+
+// found here: https://developers.google.com/chart/interactive/docs/gallery/piechart
+drawPieChart = (chartData) => {
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+        var data = google.visualization.arrayToDataTable(chartData);
+
+        var options = {
+            title: 'COVID-19 Status',
+            titleTextStyle: {
+                fontSize: 20
+            },
+            titleColor: '#fff',
+            backgroundColor: '#282A2F',
+            pieHole: 0.4,
+            legend: {
+                position: 'bottom',
+                textStyle: {
+                    color: '#fff'
+                }
+            },
+            chartArea: {
+                left: 20,
+                top: 70,
+                width: '100%',
+                height: '65%'
+            },
+            colors: [
+                '#ee5b58',
+                '#757575',
+                '#5DC83E'
+            ]
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+    }
+}
+
+// found here: https://stackoverflow.com/questions/38397894/get-json-key-name/38397927
+refactorData = (entry) => {
+    // let obj = { "success": "You are welcome" };
+    let keys = Object.keys(entry);
+    console.log(keys[0]);
+    return keys[0]
+}
+
+// found here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+objectElementDestructor = (obj) => {
+    for (const [key, value] of Object.entries(obj)) {
+        console.log(`${key} && ${value}`);
+    }
+}
+
+// found here: https://developers.google.com/chart/interactive/docs/gallery/linechart
+drawLineChart = (chartData) => {
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable(chartData);
+
+        var options = {
+            title: 'COVID-19 Cases in the Past Month',
+            titleColor: '#fff',
+            titleTextStyle: {
+                fontSize: 20
+            },
+            curveType: 'function',
+            legend: {
+                position: 'none'
+            },
+            backgroundColor: '#282A2F',
+            hAxis: {
+                title: 'Time',
+                titleTextStyle: {
+                    color: '#ffffff'
+                },
+                textColor: '#ffffff'
+            },
+            vAxis: {
+                title: 'Cases',
+                titleTextStyle: {
+                    color: '#ffffff'
+                },
+                format: 'short',
+                textColor: '#ffffff',
+                gridlines: {
+                    color: '#fff',
+                    minSpacing: 20
+                }
+            },
+            lineWidth: 10,
+            chartArea: {
+                left: 100,
+                top: 70,
+                width: '85%',
+                height: '75%'
+            },
+            colors: [
+                '#9945D7'
+            ]
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+    }
+}
