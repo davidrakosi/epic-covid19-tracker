@@ -35,5 +35,4 @@ filterRecovered = () => {
 filterCountries = (value) => {
     // let searchValue = document.getElementById('search-input-box').value
     getTodaysDataPerCountry(baseUrl, todayPerCountriesEP, value)
-    console.log(value)
 }
