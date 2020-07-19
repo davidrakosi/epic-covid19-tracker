@@ -224,11 +224,11 @@ const style = [
 ]
 
 // found here: https://developers.google.com/maps/solutions/store-locator/clothing-store-locator
-function initMap(circles) {
-    var sydney = { lat: 10, lng: 0 };
+function initMap(circles, lat, lng, zoom) {
+    var sydney = { lat: lat, lng: lng };
     map = new google.maps.Map(document.getElementById('map'), {
         center: sydney,
-        zoom: 2,
+        zoom: zoom,
         mapTypeId: 'roadmap',
         styles: style,
         disableDefaultUI: true,
@@ -253,7 +253,7 @@ function initMap(circles) {
     }
 }
 
-buildCircles = (data) => {
+buildCircles = (data, lat, lng, zoom) => {
     let circleData = []
 
     data.map((entry) => {
@@ -271,5 +271,5 @@ buildCircles = (data) => {
         circleData.push(item)
     })
     
-    initMap(circleData)
+    initMap(circleData, lat, lng, zoom)
 }

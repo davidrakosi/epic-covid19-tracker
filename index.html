@@ -21,11 +21,12 @@
     <script src="/script/perCountries.js"></script>
     <script src="/script/master.js"></script>
     <script src="/script/map.js"></script>
+    <script src="/script/filter.js"></script>
 
     <script src="/script/tools/getApiData.js"></script>
     <script src="/script/tools/idkButWorks.js"></script>
-    <script src="/script/tools/test.js"></script>
     <script src="/script/tools/charts.js"></script>
+    <!-- <script src="/script/tools/test.js"></script> -->
 
     <title>Epic COVID-19 Tracker</title>
 </head>
@@ -80,8 +81,9 @@
         </div>
         <div class="side-pane-container">
             <div class="search-bar">
-                <i class="fas fa-search"></i>
-                <input type="text" onchange="searchCountries()" placeholder="Search" class="input-box">
+                <button type="submit" onclick="filterCountries()"><i class="fas fa-search"></i></button>
+                <input type="text" onkeyup="filterCountries(this.value)" placeholder="Search" class="input-box"
+                    id="search-input-box">
             </div>
             <div class="country-list-container">
                 <div class="country-list" id="country-list">
@@ -95,8 +97,8 @@
         <div id="curve_chart" style="width: 70vw; height: 500px;"></div>
     </div>
 
-    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsWnUupM1pv7W520PQPgz8XfytmOwld1w">
-    </script> -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsWnUupM1pv7W520PQPgz8XfytmOwld1w">
+    </script>
 </body>
 
 </html>
