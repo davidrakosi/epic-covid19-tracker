@@ -17,12 +17,15 @@ body {
     flex-basis: 65%;
 }
 
+/* banner on top */
+
 .title {
     font-size: 80px;
     font-weight: 600;
     color: white;
     margin-bottom: 5%;
     margin-left: 1%;
+    text-align: center;
 }
 
 .buttons-container {
@@ -33,11 +36,21 @@ body {
 
 .button {
     display: flex;
+    transition: all 0.2s;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #44444C;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 10px #44444C /*inset, 0px 0px 0px 1000px rgba(0,0,0,0.5)*/
 }
 
 .icon-container {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
+    /* object-fit: contain; */
     border-radius: 12px;
     margin-right: 10px;
 }
@@ -45,7 +58,7 @@ body {
 .icon-container i {
     height: 100%;
     width: 100%;
-    font-size: 50px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,20 +87,22 @@ body {
 .category {
     padding-right: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .total {
-    font-size: 20px;
+    font-size: 16px;
     color: #FF802E;
     font-weight: 600;
 }
 
 .delta {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
 }
+
+/* side navigator */
 
 .side-pane-container {
     width: 35%;
@@ -116,6 +131,14 @@ body {
     margin-left: 10px;
 }
 
+.input-box{
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
 .country-list-container {
     width: 90%;
     height: 80%;
@@ -134,6 +157,15 @@ body {
     display: flex;
     padding: 5%;
     /* flex-direction: column; */
+    transition: all 0.2s;
+}
+
+.country-container:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    background-color: #44444c;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 10px #44444c /*inset, 0px 0px 0px 1000px rgba(0,0,0,0.5)*/
 }
 
 .country-flag-name {
