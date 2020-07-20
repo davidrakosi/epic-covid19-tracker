@@ -11,11 +11,13 @@ getTodaysData = (baseUrl, endpoint) => {
         return res.json()
     }).then((data) => {
         setUpNavButtons(data)
+        
         setUpPieChart(data)
+        return data
     })
 }
 
-getTodaysDataPerCountry = (baseUrl, endpoint) => {
+getTodaysDataPerCountry = (baseUrl, endpoint, filter) => {
     // params 
     const yesterday = 0
     const sort = "cases"
@@ -28,8 +30,11 @@ getTodaysDataPerCountry = (baseUrl, endpoint) => {
     }).then((res) => {
         return res.json()
     }).then((data) => {
-        buildCountryList(data)
-        buildCircles(data)
+        buildCountryList(data, filter)
+        
+        if (!filter) {
+            buildCircles(data, 10, 15, 2, '#9945D7')
+        } 
     })
 }
 
@@ -39,11 +44,11 @@ getHistoricalWorldwideData = (baseUrl, endpoint) => {
 
     const reqUrl = `${baseUrl}${endpoint}?lastdays=${lastdays}`
 
-    return fetch(reqUrl,{
-        method:'GET'
-    }).then((res)=>{
+    return fetch(reqUrl, {
+        method: 'GET'
+    }).then((res) => {
         return res.json()
-    }).then((data)=>{
+    }).then((data) => {
         setUpColumnChart(data)
     })
 }

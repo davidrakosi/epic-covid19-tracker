@@ -12,7 +12,9 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
     <!-- .css -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="/style/mac.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px) and (max-width: 1199px)" href="/style/ipad.css">
+    <link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 599px)" href="/style/iphone.css">
 
 
     <!-- scripts -->
@@ -21,19 +23,28 @@
     <script src="/script/perCountries.js"></script>
     <script src="/script/master.js"></script>
     <script src="/script/map.js"></script>
+    <script src="/script/filter.js"></script>
 
     <script src="/script/tools/getApiData.js"></script>
     <script src="/script/tools/idkButWorks.js"></script>
-    <script src="/script/tools/test.js"></script>
     <script src="/script/tools/charts.js"></script>
+    <!-- <script src="/script/tools/test.js"></script> -->
 
     <title>Epic COVID-19 Tracker</title>
 </head>
 
 <body>
     <div class="page-one">
-        <div class="main-container">
-            <div class="title">COVID-19 Tracker</div>
+        <div class="main-container" id="main">
+            <div class="top-banner">
+                <div class="title">COVID-19 Tracker</div>
+                <div class="triggers-container">
+                    <div class="show-hide-trigger-container" id="showHideTrigger">
+                        <div class="show-hide-button" onclick="hidePanel()"><i class="fas fa-chevron-right"></i></div>
+                    </div>
+                    <div class="reset" onclick="initData()"><i class="fas fa-undo"></i></div>
+                </div>
+            </div>
             <div class="buttons-container">
                 <div class="button" onclick="filterActive()">
                     <div class="icon-container infected"><i class="fas fa-virus"></i></div>
@@ -65,7 +76,7 @@
                         <div class="delta" id="recovered-delta"></div>
                     </div>
                 </div>
-                <div class="button" onclick="showTotal()">
+                <div class="button" onclick="initData()">
                     <div class="icon-container total-cases"><i class="fas fa-globe-americas"></i></div>
                     <div class="info-container">
                         <div class="general-info">
@@ -78,8 +89,12 @@
             </div>
             <div class="map-container" id="map"></div>
         </div>
-        <div class="side-pane-container">
-            <div class="search-bar"><i class="fas fa-search"></i>Search</div>
+        <div class="side-pane-container" id="side-panel">
+            <div class="search-bar">
+                <button type="submit" onclick="filterCountries()"><i class="fas fa-search"></i></button>
+                <input type="text" onkeyup="filterCountries(this.value)" placeholder="Search" class="input-box"
+                    id="search-input-box">
+            </div>
             <div class="country-list-container">
                 <div class="country-list" id="country-list">
 
@@ -88,12 +103,12 @@
         </div>
     </div>
     <div class="charts-container">
-        <div id="piechart" style="width: 30vw; height: 500px;"></div>
-        <div id="curve_chart" style="width: 70vw; height: 500px;"></div>
+        <div id="piechart"></div>
+        <div id="curve_chart"></div>
     </div>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDorB-nMWDfFViGEv99DKH98i33vlEQjRw">
-    </script>
-</body>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDorB-nMWDfFViGEv99DKH98i33vlEQjRw"></script>
 
-</html>
+</body >
+
+</html >

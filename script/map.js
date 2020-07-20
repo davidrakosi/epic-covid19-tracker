@@ -1,4 +1,3 @@
-
 const style = [
     {
         "elementType": "geometry",
@@ -224,52 +223,80 @@ const style = [
 ]
 
 // found here: https://developers.google.com/maps/solutions/store-locator/clothing-store-locator
-function initMap(circles) {
-    var sydney = { lat: 10, lng: 0 };
+function initMap(circles, lat, lng, zoom, color, type) {
+    var sydney = { lat: lat, lng: lng };
     map = new google.maps.Map(document.getElementById('map'), {
         center: sydney,
-        zoom: 2,
+        zoom: zoom,
         mapTypeId: 'roadmap',
         styles: style,
         disableDefaultUI: true,
         mapTypeControlOptions: { style: google.maps.MapTypeControlStyle.DROPDOWN_MENU }
     });
+    console.log(sydney)
 
     // Construct the circle for each value in citymap.
     // Note: We scale the area of the circle based on the population.
     for (var country in circles) {
         // Add the circle for this city to the map.
+        let circleSize
+
+        if (type) {
+            switch (type) {
+                case 'active':
+                    circleSize = circles[country].active
+                    break;
+                case 'deaths':
+                    circleSize = circles[country].deaths
+                    break;
+                case 'recovered':
+                    circleSize = circles[country].recovered
+                    break;
+
+                default:
+                    circleSize = circles[country].total
+                    break;
+            }
+        } else {
+            circleSize = circles[country].total
+        }
 
         var countryCircle = new google.maps.Circle({
-            strokeColor: "#FF0000",
+            strokeColor: color,
             strokeOpacity: 0.8,
             strokeWeight: 2,
-            fillColor: "#FF0000",
+            fillColor: color,
             fillOpacity: 0.35,
             map: map,
             center: circles[country].center,
-            radius: Math.sqrt(circles[country].active) * 1000
+            radius: Math.sqrt(circleSize) * 1000
         });
     }
 }
 
-buildCircles = (data) => {
+buildCircles = (data, lat, lng, zoom, color, type) => {
     let circleData = []
+    let passColor = ''
+    let passType = ''
+
+    if (!type) { passType = 'active' } else { passType = type }
+    if (!color) { passColor = '#9945d7' } else { passColor = color }
 
     data.map((entry) => {
         let item = {}
 
         item['country'] = entry.country
-        item['center']={
-            "lat":entry.countryInfo.lat,
-            "lng":entry.countryInfo.long
+        item['center'] = {
+            "lat": entry.countryInfo.lat,
+            "lng": entry.countryInfo.long
         }
         item['active'] = entry.active
         item['deaths'] = entry.deaths
         item['recovered'] = entry.recovered
+        item['total'] = entry.cases
 
         circleData.push(item)
     })
-    
-    initMap(circleData)
+
+    initMap(circleData, lat, lng, zoom, passColor, passType)
 }

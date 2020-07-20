@@ -106,7 +106,7 @@ drawLineChart = (chartData) => {
                 textColor: '#ffffff'
             },
             vAxis: {
-                title: 'Cases',
+                title: 'Deaths / Recovered / Cases',
                 titleTextStyle: {
                     color: '#ffffff'
                 },
@@ -125,7 +125,9 @@ drawLineChart = (chartData) => {
                 height: '75%'
             },
             colors: [
-                '#9945D7'
+                '#ee5b58',
+                '#757575',
+                '#5DC83E'
             ]
         };
 
