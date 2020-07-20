@@ -11,7 +11,9 @@ getTodaysData = (baseUrl, endpoint) => {
         return res.json()
     }).then((data) => {
         setUpNavButtons(data)
+        
         setUpPieChart(data)
+        return data
     })
 }
 
@@ -29,9 +31,10 @@ getTodaysDataPerCountry = (baseUrl, endpoint, filter) => {
         return res.json()
     }).then((data) => {
         buildCountryList(data, filter)
+        
         if (!filter) {
-            buildCircles(data, 10, 0, 2)
-        }
+            buildCircles(data, 10, 15, 2, '#9945D7')
+        } 
     })
 }
 

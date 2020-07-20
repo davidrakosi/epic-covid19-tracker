@@ -12,12 +12,22 @@ body {
     display: flex;
 }
 
-.main-container {
+/* .main-container {
     width: 65%;
     flex-basis: 65%;
+} */
+
+#main{
+    width: 65%;
+    flex-basis: 65%;
+    transition: all 0.2s;
 }
 
 /* banner on top */
+
+.top-banner {
+    display: flex;
+}
 
 .title {
     font-size: 80px;
@@ -26,6 +36,53 @@ body {
     margin-bottom: 5%;
     margin-left: 1%;
     text-align: center;
+    width: 95%;
+}
+
+.triggers-container {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.show-hide-button {
+    height: 36px;
+    width: 36px;
+    color: white;
+    background-color: #44444C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.show-hide-button:hover{
+    transform: scale(1.2);
+}
+
+.reset {
+    height: 36px;
+    width: 36px;
+    color: white;
+    background-color: #44444C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.reset:hover{
+    transform: scale(1.2);
 }
 
 .buttons-container {
@@ -104,9 +161,15 @@ body {
 
 /* side navigator */
 
-.side-pane-container {
+#side-panel{
     width: 35%;
     flex-basis: 35%;
+    transition: all 0.2s;
+}
+
+.side-pane-container {
+    /* width: 35%;
+    flex-basis: 35%; */
     height: 100vh;
     background-color: #44444C;
     display: flex;
@@ -124,10 +187,10 @@ body {
     font-size: 20px;
     color: white;
     /* top right bottom left */
-    margin: 10% 0 10% 0;
+    margin: 5% 0 5% 0;
 }
 
-.search-bar input::placeholder{
+.search-bar input::placeholder {
     color: white;
 }
 
@@ -155,7 +218,7 @@ body {
 
 .country-list-container {
     width: 90%;
-    height: 80%;
+    height: 85%;
     display: flex;
     flex-direction: column;
     background-color: #282A2F;
@@ -214,7 +277,19 @@ body {
 .country-total-cases {
     /* padding-left: 65px; */
     padding-left: 11px;
-    color: white;
+    color: #FF802E;
+    font-weight: 600;
+}
+
+.country-today-delta{
+    width: 100%;
+    padding-right: 10%;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .country-info-container {
@@ -231,4 +306,8 @@ body {
     display: flex;
     width: 100vw;
     flex-basis: 100%;
+}
+
+#piechart{
+    transition: all 0.2s;
 }
