@@ -312,4 +312,10 @@ body {
 
 #piechart{
     transition: all 0.2s;
+    width: 30vw;
+    height: 500px;
+}
+#curve_chart{
+    width: 70vw;
+    height: 500px;
 }

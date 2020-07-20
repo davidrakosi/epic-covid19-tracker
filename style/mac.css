@@ -17,7 +17,7 @@ body {
     flex-basis: 65%;
 } */
 
-#main{
+#main {
     width: 65%;
     flex-basis: 65%;
     transition: all 0.2s;
@@ -62,7 +62,7 @@ body {
     transition: all 0.2s;
 }
 
-.show-hide-button:hover{
+.show-hide-button:hover {
     transform: scale(1.2);
 }
 
@@ -81,7 +81,7 @@ body {
     transition: all 0.2s;
 }
 
-.reset:hover{
+.reset:hover {
     transform: scale(1.2);
 }
 
@@ -161,7 +161,7 @@ body {
 
 /* side navigator */
 
-#side-panel{
+#side-panel {
     width: 35%;
     flex-basis: 35%;
     transition: all 0.2s;
@@ -282,7 +282,7 @@ body {
     font-weight: 600;
 }
 
-.country-today-delta{
+.country-today-delta {
     width: 60%;
     padding-right: 10%;
     text-align: end;
@@ -309,6 +309,8 @@ body {
     flex-basis: 100%;
 }
 
-#piechart{
+#piechart {
     transition: all 0.2s;
+    width: 30vw;
+    height: 500px;
 }
