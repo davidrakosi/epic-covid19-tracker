@@ -28,8 +28,6 @@ buildCountryList = (countriesData, filter, type) => {
     let lat = 10
     let lng = 15
 
-    console.log(type)
-
     if (filter && filter != 0) {
         countriesData.map((entry) => {
             const countryName = entry.country
@@ -77,7 +75,7 @@ buildCountryList = (countriesData, filter, type) => {
             countryTotal = numbersFriendlyFormat(countryEntry.cases)
             color = '#9945D7'
         }
-
+        
         html += `
         <div class="country-container" onclick="filterCountries('${countryEntry.country}')">
             <div class="flag-container">
