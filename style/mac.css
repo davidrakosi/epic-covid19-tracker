@@ -216,49 +216,6 @@ body {
     outline: none;
 }
 
-.legend-container{
-    font-size: 12px;
-    display: flex;
-    width: 90%;
-    /* padding-left: 5%; */
-    /* padding-right: 5%; */
-}
-
-.legend-placeholder{
-    width: 50px;
-    margin-left: 5%;
-}
-
-.legend-total{
-    width: 15%;
-    margin-left: 10px;
-}
-
-.legend-delta{
-    width: 66%;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 5%;
-}
-
-.legend-infected{
-    color: #ee5b58;
-}
-.legend-deaths{
-    color: #757575;
-}
-.legend-recovered{
-    color: #5DC83E;
-}
-.legend-total-cases{
-    color: #9945D7;
-}
-
-.legend-item{
-    width: 33%;
-    text-align: end;
-}
-
 .country-list-container {
     width: 90%;
     height: 85%;
@@ -275,7 +232,7 @@ body {
 
 .country-container {
     display: flex;
-    padding: 4%;
+    padding: 5%;
     /* flex-direction: column; */
     transition: all 0.2s;
 }
@@ -283,7 +240,9 @@ body {
 .country-container:hover {
     transform: scale(1.02);
     cursor: pointer;
+    background-color: #44444c;
     border-radius: 12px;
+    box-shadow: 0px 0px 10px 10px #44444c/*inset, 0px 0px 0px 1000px rgba(0,0,0,0.5)*/
 }
 
 .country-flag-name {
@@ -291,22 +250,17 @@ body {
     align-items: center;
 }
 
-.country-name-cases{
-    width: 20%;
-    padding-right: 20px;
-}
-
 .country-name {
+    width: 40%;
     padding-left: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 32px;
 }
 
 .flag-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 .country-flag-container {
@@ -314,7 +268,6 @@ body {
     overflow: hidden;
     height: 50px;
     width: 50px;
-    object-fit: contain;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -330,14 +283,14 @@ body {
 }
 
 .country-today-delta {
-    width: 80%;
-    padding-right: 5%;
-    /* text-align: start; */
+    width: 60%;
+    padding-right: 10%;
+    text-align: end;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 400;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .country-info-container {
