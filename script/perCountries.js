@@ -75,7 +75,7 @@ buildCountryList = (countriesData, filter, type) => {
             countryTotal = numbersFriendlyFormat(countryEntry.cases)
             color = '#9945D7'
         }
-        
+
         html += `
         <div class="country-container" onclick="filterCountries('${countryEntry.country}')">
             <div class="flag-container">
@@ -85,7 +85,11 @@ buildCountryList = (countriesData, filter, type) => {
                 <div class="country-name">${countryEntry.country}</div>
                 <div class="country-total-cases">${countryTotal}</div>
             </div>
-            <div class="country-today-delta" id="countryDelta" style="color: ${color};">${countryDelta}</div>
+            <div class="country-today-delta" id="countryDelta">
+                <div class='legend-item' style='color: #ee5b58'>${numbersFriendlyFormat(countryEntry.active)}</div>
+                <div class='legend-item' style='color: #757575'>${numbersFriendlyFormat(countryEntry.deaths)}</div>
+                <div class='legend-item' style='color: #5DC83E'>${numbersFriendlyFormat(countryEntry.recovered)}</div>
+            </div>
         </div>
     `
     })
