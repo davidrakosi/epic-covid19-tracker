@@ -213,6 +213,48 @@ body {
     outline: none;
 }
 
+.legend-container{
+    font-size: 12px;
+    display: flex;
+    width: 90%;
+    /* padding-left: 5%; */
+    /* padding-right: 5%; */
+}
+
+.legend-placeholder{
+    width: 50px;
+    margin-left: 5%;
+}
+
+.legend-total{
+    width: 15%;
+}
+
+.legend-delta{
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4%;
+}
+
+.legend-infected{
+    color: #ee5b58;
+}
+.legend-deaths{
+    color: #757575;
+}
+.legend-recovered{
+    color: #5DC83E;
+}
+.legend-total-cases{
+    color: #9945D7;
+}
+
+.legend-item{
+    /* width: 33%; */
+    text-align: end;
+}
+
 .country-list-container {
     width: 90%;
     height: 70%;
@@ -248,10 +290,14 @@ body {
     align-items: center;
 }
 
+.country-name-cases{
+    width: 30%;
+}
+
 .country-name {
     padding-left: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .flag-container {
@@ -265,7 +311,6 @@ body {
     overflow: hidden;
     height: 30px;
     width: 30px;
-    margin-right: 20px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -278,17 +323,21 @@ body {
     padding-left: 11px;
     color: #FF802E;
     font-weight: 600;
+    font-size: 12px;
 }
 
 .country-today-delta {
     width: 100%;
-    padding-right: 10%;
+    /* padding-right: 5%; */
+    padding-left: 5%;
     text-align: end;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
+    display: flex;
+    justify-content: space-between;
 }
 
 .country-info-container {
